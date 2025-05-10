@@ -43,7 +43,7 @@ Esta é a minha solução para o desafio [Bento grid challenge on Frontend Mento
 
 ### Links
 
-- URL do site publicado: [Clique aqui]()
+- URL do site publicado: [Clique aqui](https://guilherme-ddiniz.github.io/bento-grid-main/)
 
 ---
 

@@ -1,0 +1,534 @@
+@media(max-width:975px){
+    /* CENTRALIZAÇÃO DO CONTEÚDO NA PÁGINA */
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: var(--Yellow-fundo);
+}
+
+/* ORGANIZAÇÃO DO LAYOUT DOS ANUNCIOS */
+.container {
+    display: grid;
+    grid-template: 
+    "segundo-anuncio segundo-anuncio" 240px
+    "quinto-anuncio sexto-anuncio" 200px
+    "primeiro-anuncio terceiro-anuncio" 15px
+    "primeiro-anuncio terceiro-anuncio" 260px
+    "quarto-anuncio terceiro-anuncio" 145px
+    "quarto-anuncio setimo-anuncio" 200px
+    "oitavo-anuncio oitavo-anuncio" 200px / 200px 200px;
+    gap: 20px;
+    font-family: 'DM Sans';
+    margin: 100px 0px;
+}
+
+.primeiro-anuncio {
+    grid-area: primeiro-anuncio;
+}
+
+.segundo-anuncio {
+    grid-area: segundo-anuncio;
+}
+
+.terceiro-anuncio {
+    grid-area: terceiro-anuncio;
+}
+
+.quarto-anuncio {
+    grid-area: quarto-anuncio;
+}
+
+.quinto-anuncio {
+    grid-area: quinto-anuncio;
+}
+
+.sexto-anuncio {
+    grid-area: sexto-anuncio;
+}
+
+.setimo-anuncio {
+    grid-area: setimo-anuncio;
+}
+
+.oitavo-anuncio {
+    grid-area: oitavo-anuncio;
+}
+
+/* ORGANIZAÇÃO DO CONTEÚDO DOS ANUNCIOS */
+.anuncio {
+    border-radius: 10px;
+}
+/* PRIMEIRO ANUNCIO */
+.primeiro-anuncio {
+    background-color: var(--Yellow-100);
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.primeiro-anuncio h2 {
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 30px;
+}
+
+.primeiro-anuncio span.italico {
+    color: var(--Purple-500);
+    font-family: 'italic';
+}
+
+.primeiro-anuncio img {
+    width: 160px;
+}
+
+/* SEGUNDO ANUNCIO */
+.segundo-anuncio {
+    background-color: var(--Purple-500);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px;
+    color: var(--White);
+}
+
+.segundo-anuncio h1 {
+    font-family: 'medium';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -3px;
+    line-height: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.segundo-anuncio h1 span {
+    color: var(--Yellow-500);
+}
+.segundo-anuncio h1 span.italico {
+    font-family: 'italic';
+    color: var(--White);
+}
+
+.segundo-anuncio img {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.segundo-anuncio p {
+    font-size: 14px;
+}
+
+/* TERCEIRO ANUNCIO */
+.terceiro-anuncio {
+    background-color: var(--Purple-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.terceiro-anuncio h2 {
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: -2px;
+    margin-top: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+
+.terceiro-anuncio img {
+    width: 280px;
+    height: 240px;
+    transform: translateX(60px);
+    margin-bottom: 25px;
+}
+
+.terceiro-anuncio p {
+    padding: 0px 15px;
+    font-size: 14px;
+}
+
+/* ORAGNIZAÇÃO DO QUARTO ANUNCIO */
+.quarto-anuncio {
+    background-color: var(--Yellow-500);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.quarto-anuncio h2 {
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-bottom: 50px;
+}
+
+.quarto-anuncio img {
+    width: 162px;
+}
+
+/* ORGANIZAÇÃO DO QUINTO ANUNCIO */
+.quinto-anuncio {
+    background-color: var(--White);
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.quinto-anuncio img {
+    height: 40px;
+    transform: translateX(8px);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.quinto-anuncio h2 {
+    font-size: 25px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-right: 10px;
+}
+
+/* ORGANIZAÇÃO DO SEXTO ANUNCIO */
+.sexto-anuncio {
+    background-color: var(--Yellow-500);
+    padding: 20px 20px 0px 20px;
+    overflow: hidden;
+}
+
+.sexto-anuncio h2 {
+    font-size: 25px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+}
+
+.sexto-anuncio img {
+    width: 160px;
+    height: 120px;
+}
+
+/* ORGANIZAÇÃO DO SETIMO ANUNCIO */
+.setimo-anuncio {
+    background-color: var(--White);
+    padding: 24px;
+}
+
+.setimo-anuncio h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.setimo-anuncio p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.setimo-anuncio img {
+    width: 142px;
+}
+
+/* ORGANIZAÇÃO DO OITAVO ANUNCIO */
+.oitavo-anuncio {
+    background-color: var(--Purple-500);
+    display: flex;
+    padding: 20px;
+}
+
+.oitavo-anuncio h2 {
+    font-size: 27px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -1px;
+    align-self: center;
+    margin-left: 10px;
+    color: var(--White);
+}
+}
+
+@media(max-width:440px){
+    /* CENTRALIZAÇÃO DO CONTEÚDO NA PÁGINA */
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: var(--Yellow-fundo);
+}
+
+/* ORGANIZAÇÃO DO LAYOUT DOS ANUNCIOS */
+.container {
+    display: grid;
+    grid-template: 
+    "segundo-anuncio" 220px
+    "quinto-anuncio" 150px
+    "sexto-anuncio" 200px
+    "terceiro-anuncio" 380px
+    "primeiro-anuncio " 170px
+    "quarto-anuncio " 290px
+    "setimo-anuncio" 180px
+    "oitavo-anuncio" auto / 280px ;
+    gap: 20px;
+    font-family: 'DM Sans';
+    margin: 100px 0px;
+}
+
+.primeiro-anuncio {
+    grid-area: primeiro-anuncio;
+}
+
+.segundo-anuncio {
+    grid-area: segundo-anuncio;
+}
+
+.terceiro-anuncio {
+    grid-area: terceiro-anuncio;
+}
+
+.quarto-anuncio {
+    grid-area: quarto-anuncio;
+}
+
+.quinto-anuncio {
+    grid-area: quinto-anuncio;
+}
+
+.sexto-anuncio {
+    grid-area: sexto-anuncio;
+}
+
+.setimo-anuncio {
+    grid-area: setimo-anuncio;
+}
+
+.oitavo-anuncio {
+    grid-area: oitavo-anuncio;
+}
+
+/* ORGANIZAÇÃO DO CONTEÚDO DOS ANUNCIOS */
+.anuncio {
+    border-radius: 10px;
+}
+/* PRIMEIRO ANUNCIO */
+.primeiro-anuncio {
+    background-color: var(--Yellow-100);
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px 20px;
+}
+
+.primeiro-anuncio h2 {
+    font-size: 25px;
+    line-height: 100%;
+    margin: 15px 0px;
+    font-weight: 500;
+    letter-spacing: -2px;
+
+}
+
+.primeiro-anuncio span.italico {
+    color: var(--Purple-500);
+    font-family: 'italic';
+}
+
+.primeiro-anuncio img {
+    width: 160px;
+}
+
+/* SEGUNDO ANUNCIO */
+.segundo-anuncio {
+    background-color: var(--Purple-500);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    color: var(--White);
+}
+
+.segundo-anuncio h1 {
+    font-family: 'medium';
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: -3px;
+    line-height: 100%;
+    margin: 10px 0px;
+}
+
+.segundo-anuncio h1 span {
+    color: var(--Yellow-500);
+}
+.segundo-anuncio h1 span.italico {
+    font-family: 'italic';
+    color: var(--White);
+}
+
+.segundo-anuncio img {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.segundo-anuncio p {
+    font-size: 14px;
+}
+
+/* TERCEIRO ANUNCIO */
+.terceiro-anuncio {
+    background-color: var(--Purple-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px ;
+    overflow: hidden;
+}
+
+.terceiro-anuncio h2 {
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: -2px;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-right: 0px;
+}
+
+.terceiro-anuncio img {
+    width: 240px;
+    height: 220px;
+    transform: translateX(0px);
+    margin-bottom: 25px;
+}
+
+.terceiro-anuncio p {
+    padding: 0px 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ORAGNIZAÇÃO DO QUARTO ANUNCIO */
+.quarto-anuncio {
+    background-color: var(--Yellow-500);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.quarto-anuncio h2 {
+    font-size: 25px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.quarto-anuncio img {
+    width: 162px;
+}
+
+/* ORGANIZAÇÃO DO QUINTO ANUNCIO */
+.quinto-anuncio {
+    background-color: var(--White);
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.quinto-anuncio img {
+    height: 50px;
+    width: 250px;
+    transform: translateX(0px);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.quinto-anuncio h2 {
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-right: 10px;
+}
+
+/* ORGANIZAÇÃO DO SEXTO ANUNCIO */
+.sexto-anuncio {
+    background-color: var(--Yellow-500);
+    padding: 20px 20px 0px 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sexto-anuncio h2 {
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+    padding-right: 2px;
+}
+
+.sexto-anuncio img {
+    width: 220px;
+    height: 160px;
+}
+
+/* ORGANIZAÇÃO DO SETIMO ANUNCIO */
+.setimo-anuncio {
+    background-color: var(--White);
+    padding: 20px;
+}
+
+.setimo-anuncio h1 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.setimo-anuncio p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.setimo-anuncio img {
+    width: 142px;
+}
+
+/* ORGANIZAÇÃO DO OITAVO ANUNCIO */
+.oitavo-anuncio {
+    background-color: var(--Purple-500);
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+}
+
+.oitavo-anuncio img {
+    margin-bottom: 15px;
+}
+
+.oitavo-anuncio h2 {
+    font-size: 27px;
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: -1px;
+    align-self: center;
+    margin-left: 10px;
+    color: var(--White);
+    text-align: center;
+}
+}
